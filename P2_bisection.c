@@ -28,7 +28,7 @@ scanf("%f%f",&x1,&x2);
 if(findValueAt(x1)*findValueAt(x2)>0)
 {
 printf("Roots are Invalid\n");
-continue;
+continue;   
 }
 else
 {
@@ -59,7 +59,8 @@ return 0;
 x=x3;  //v.imp
 i++; 
 }while(i<=maxIteration);
-printf("Root=%f  Total Iterations=%d",x,--i);
+x = floor(1000*x)/1000;
+printf("\nRoot=%f  Total Iterations=%d",x,--i);
 
 return 0;
 }
