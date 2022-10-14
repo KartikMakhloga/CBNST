@@ -59,7 +59,7 @@ return 0;
 x=x3;  //v.imp
 i++; 
 }while(i<=maxIteration);
-x = floor(1000*x)/1000;
+x = floor(1000*x)/1000;`
 printf("\nRoot=%f  Total Iterations=%d",x,--i);
 
 return 0;
